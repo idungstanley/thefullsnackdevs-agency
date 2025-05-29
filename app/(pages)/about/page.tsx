@@ -6,7 +6,7 @@ import { team } from '@/app/constants/team';
 
 const About: React.FC = () => {
   return (
-    <main className="pt-20">
+    <main className="pt-32 md:px-20 p-4">
       <section className="section">
         <div className="container">
           <motion.div
@@ -19,8 +19,8 @@ const About: React.FC = () => {
               About <span className="gradient-text">Us</span>
             </h1>
             <p className="text-gray-400 max-w-3xl mx-auto text-lg">
-              We&apos;re a team of passionate developers, designers, and problem solvers dedicated to turning your ideas into
-              reality.
+              We&apos;re a team of passionate developers, designers, and problem solvers dedicated to turning your ideas
+              into reality.
             </p>
           </motion.div>
 

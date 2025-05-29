@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Projects: React.FC = () => {
   return (
-    <main className="pt-20">
+    <main className="pt-32 md:px-20 p-4">
       <section className="section">
         <div className="container">
           <motion.div
