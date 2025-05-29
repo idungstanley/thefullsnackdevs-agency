@@ -66,3 +66,16 @@ export interface contactInfoProp {
     link: string;
     value: string;
 }
+
+export interface TeamMember {
+    id: number;
+    name: string;
+    role: string;
+    image: string;
+    bio: string;
+    socials?: {
+        linkedin?: string;
+        github?: string;
+        twitter?: string;
+    };
+  }
