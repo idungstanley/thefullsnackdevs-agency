@@ -1,4 +1,5 @@
 import { CSSProperties } from "react";
+import { IconType } from "react-icons";
 
 export interface NavItem {
     label: string;
@@ -57,4 +58,11 @@ export interface Testimonial {
     company: string;
     content: string;
     image: string;
-  }
+}
+  
+export interface contactInfoProp {
+    icon: IconType;
+    message: string;
+    link: string;
+    value: string;
+}

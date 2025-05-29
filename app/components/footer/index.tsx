@@ -6,10 +6,9 @@ import { FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube, FaArrowUp } from 'reac
 import ProgressBar from '../ProgressBar';
 import { GoChevronRight } from 'react-icons/go';
 import { FaFacebook } from 'react-icons/fa6';
-import Logo from '../sidebar/Logo';
-import { contactInformations } from '@/app/constants/courseOfferrings';
+import Logo from '../Logo';
 import Link from 'next/link';
-import { bootCampItems } from '@/app/constants/navigation';
+import { contactInformations } from '@/app/constants';
 
 const ICON_MAP: { [key: string]: ReactNode } = {
   facebook: <FaFacebook />,
@@ -78,13 +77,13 @@ const Footer = () => {
               <h2 className="text-xl font-bold mb-4">IT SERVICES</h2>
               <ProgressBar />
             </div>
-            <ul className="text-gray-400 space-y-2">
+            {/* <ul className="text-gray-400 space-y-2">
               {bootCampItems.map((item) => (
                 <Link href={item.route} key={item.label} className="flex items-center gap-2 hover:text-[#684DF4] cursor-pointer">
                   <GoChevronRight /> {item.label}
                 </Link>
               ))}
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
