@@ -1,0 +1,58 @@
+import { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: 'HealthTrack Pro',
+    description: 'A comprehensive health tracking platform for healthcare providers with real-time patient monitoring.',
+    category: ['Web App', 'Mobile App'],
+    image: 'https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['React', 'Node.js', 'MongoDB', 'React Native'],
+    path: '/projects/healthtrack-pro',
+  },
+  {
+    id: 2,
+    title: 'EduLearn Platform',
+    description: 'Online learning platform with interactive courses, quizzes, and progress tracking for schools and universities.',
+    category: ['Web App', 'E-Learning'],
+    image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'AWS'],
+    path: '/projects/edulearn-platform',
+  },
+  {
+    id: 3,
+    title: 'FinTech Dashboard',
+    description: 'Comprehensive financial management dashboard for tracking investments, expenses, and financial goals.',
+    category: ['Web App', 'FinTech'],
+    image: 'https://images.pexels.com/photos/7567434/pexels-photo-7567434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['React', 'Redux', 'Node.js', 'D3.js'],
+    path: '/projects/fintech-dashboard',
+  },
+  {
+    id: 4,
+    title: 'Travel Buddy App',
+    description: 'Mobile app for travelers to discover local experiences, book accommodations, and connect with locals.',
+    category: ['Mobile App', 'Travel'],
+    image: 'https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['Flutter', 'Firebase', 'Google Maps API'],
+    path: '/projects/travel-buddy',
+  },
+  {
+    id: 5,
+    title: 'E-commerce Platform',
+    description: 'Custom e-commerce solution with inventory management, payment processing, and customer analytics.',
+    category: ['Web App', 'E-commerce'],
+    image: 'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
+    path: '/projects/ecommerce-platform',
+  },
+  {
+    id: 6,
+    title: 'Remote Team Hub',
+    description: 'Internal tool for managing remote teams, tracking productivity, and enhancing collaboration.',
+    category: ['Web App', 'Productivity'],
+    image: 'https://images.pexels.com/photos/3182834/pexels-photo-3182834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['React', 'GraphQL', 'MongoDB', 'Socket.io'],
+    path: '/projects/remote-team-hub',
+  },
+];
