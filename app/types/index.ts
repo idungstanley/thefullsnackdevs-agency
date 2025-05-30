@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { CSSProperties, SetStateAction } from "react";
 import { IconType } from "react-icons";
 
 export interface NavItem {
@@ -78,4 +78,14 @@ export interface TeamMember {
         github?: string;
         twitter?: string;
     };
-  }
+}
+  
+export interface HamburgerProps {
+    isToggle: boolean;
+    color?: string;
+    size?: number;
+    width?: number;
+    height?: number;
+    toggleFn: React.Dispatch<SetStateAction<boolean>>;
+    classname?: string;
+}

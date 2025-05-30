@@ -1,4 +1,4 @@
-import { HamburgerProps } from '@/app/types/index.interface';
+import { HamburgerProps } from '@/app/types/index';
 import React from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { IoCloseOutline } from 'react-icons/io5';
